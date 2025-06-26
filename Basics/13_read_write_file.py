@@ -9,7 +9,7 @@ def count_num_in_file(file_path, num):
 
 def count_num_in_tokens(tokens, num):
     count = 0
-    for token in tokens:
+    for token in token:
         if num == int(token):
             count+=1
     return count
